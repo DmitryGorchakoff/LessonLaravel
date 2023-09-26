@@ -1,0 +1,13 @@
+[2023-09-26 06:54:50] production.ERROR: The C:\Users\1\Documents\GitHub\LessonLaravel\LessonLaravel\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\bootstrap\\cache directory must be present and writable. at C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:178)
+[stacktrace]
+#0 C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(131): Illuminate\\Foundation\\PackageManifest->write()
+#1 C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config()
+#4 C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 C:\\Users\\1\\Documents\\GitHub\\LessonLaravel\\LessonLaravel\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
