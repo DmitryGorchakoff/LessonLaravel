@@ -13,4 +13,6 @@ class MyPlaceController extends Controller
     public function state(){
         return ' my state is'.' variable';
     }
+
+
 }
