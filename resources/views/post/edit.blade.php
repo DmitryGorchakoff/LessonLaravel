@@ -27,6 +27,18 @@
                     @endforeach
                 </select>
             </div>
+            <div class="form-group">
+                <label for="tags">Tags</label>
+                <select multiple class="form-control" name="tags[]" id="tags">
+                    @foreach($tags as $tag)
+                        <option
+                            @foreach($post->tags as $postTag) @endforeach
+                            {{$tag->id==$postTag->id ? 'selected': ''}}
+                            value="{{$tag->id}}">{{$tag->title}}}</option>
+                    @endforeach
+                </select>
+            </div>
+
 
             <button type="submit" class="btn btn-primary">Update</button>
         </form>
